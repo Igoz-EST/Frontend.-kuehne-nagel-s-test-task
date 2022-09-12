@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #212529;
+}
+
+.container > button {
+  margin: 20px;
+}
+
+.container button {
+  margin: 20px;
+}
+
+/* ----------- Modal window ----------- */
+.modal {
+  display: block; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+}
+/* ----------- Modal window headers----------- */
+.modal > h1 {
+  margin-left: 100px;
+}
+.modal-left > h2 {
+font-size: 20px;
+}
+.modal-right > h2 {
+  font-size: 20px;
+}
+
+/* ----------------Modal Content -------------*/
+.modal-content {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  padding: 20px;
+  width: 100%;
+}
+
+.modal-left {
+width: 100%;
+margin: 10px;
+}
+.modal-right {
+width: 100%;
+margin: 10px;
+}
+
+.modal-window {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  padding-bottom: 100px;
+  border-radius: 10px;
+}
+/* ---------------The Close Button -------------*/
+.close {
+  color: #000000;
+  float: right;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.close:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  background-color: #212529;
+
+}
+/* ----------- Some styles for info ----------- */
+p {
+  background-color: rgba(0,0,0,0.2);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+table {
+  border: #000 solid 3px;
+}
+
+tr > button {
+  width: 70%;
+  text-align: center;
+}
+
